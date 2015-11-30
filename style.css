@@ -1,0 +1,172 @@
+body{
+	/*background-color: #ffd456;*/
+	/*background-image : url(bkg.jpg);*/
+	background-image : url(images/0.jpg);
+	/*background-repeat:no-repeat;*/
+	background-size: cover; 	
+}   
+
+
+a:visited  {
+	color: white;
+}
+
+a:hover  {
+	color: orange;
+}
+
+#veille{
+	/*float : left;
+	top : 850px;*/
+}
+
+
+#reg{
+	background-color : black;
+	width: 100%;
+	/*position: fixed;*/
+	height: 50px;
+	top: 0;
+	right : 0;
+	z-index : 1;
+}  
+
+#status{
+	position : absolute;
+	float: left;
+	width: 250px;
+	height:50px;
+	left: 50px;
+	color : white;
+/*	background-color : red;*/
+}
+
+#aa{
+	float: right;
+    width: 500px;
+	height: 50px;
+	right : 50px;
+	/*background-color : green;*/
+	position: absolute;
+}
+
+#avatar{
+	float: left;
+    width: 150px;
+	height:150px;
+	/*border:1px solid red;*/
+    margin: 60px 0px 0px 250px;
+	padding : 0px;
+	background-image : url(images/avatar.jpg);
+}
+
+#competence1{
+	float: left;
+    margin: auto 0px auto 30%;
+}
+
+#sportsMusiques{
+	float: left;
+    margin: auto 0px auto 30%;
+}
+
+#formation1{
+	color:red;
+	float: left;
+   /* margin: 10px 0px 0px 250px;*/
+	background-color : white;
+}
+
+#exp1{
+	/*color: red;*/
+	float: left;
+	margin-left: 18%;
+}
+
+
+#cv-div{
+	color : white;
+/*	background-color : green;*/
+	background-image : url(images/bkg.jpg);
+	width: 96%;
+	position: relative;
+	height: 50px;
+	margin: auto 2% auto 2%;
+}
+
+.exp-pro-titre,.formations-titre,.competences-titre,.centre_int-titre {
+	cursor: pointer;
+}
+
+#exp-pro-nom{
+	position : absolute;
+	float: left;
+	width: 200px;
+	height:50px;
+	left: 50px;
+	/*background-color : yellow;*/
+}
+
+#formations-nom{
+	position : absolute;
+	float: left;
+	width: 100px;
+	height:50px;
+	left: 400px;
+	/*background-color : white;*/
+}
+
+#competences-nom{
+	position : absolute;
+	float: left;
+	width: 150px;
+	height:50px;
+	left: 700px;
+	/*background-color : gray;*/
+}
+
+#centre_int-nom{
+	position : absolute;
+	float: left;
+	width: 200px;
+	height:50px;
+	left: 900px;
+/*background-color : orange;*/
+}
+
+#dev-div{
+	background-color : #ffffcc;
+	/*background-image : url(images/modif.jpg);*/
+	background-size: cover;
+	margin: 0 2% 0 2%;
+	position: relative;
+	height: 550px;
+	color :black;
+
+}
+
+aa,a {
+	width: 500px;
+    margin: 15px;
+    color: #FF0000;
+	text-decoration: none;
+}
+  
+#info_pers {
+   /* border: 2px solid blue;*/
+   text-align: center;
+	background-image : url(images/whitered.jpg);
+    margin: 62px 250px 0px 450px;
+   /* background-color: #FFFFE0;*/
+   /* padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;*/	
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+
+}
+
+#veille-div {
+}
