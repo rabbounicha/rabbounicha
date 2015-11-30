@@ -1,4 +1,5 @@
-	<div id="slideshow-wrap">
+        <h4 id="veille-titre"> Veille Technologique </h4>
+        <div id="slideshow-wrap">
         <input type="radio" id="button-1" name="controls" checked="checked"/>
         <label for="button-1"></label>
         <input type="radio" id="button-2" name="controls"/>

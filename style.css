@@ -135,7 +135,8 @@ a:hover  {
 }
 
 #dev-div{
-	background-color : #ffffcc;
+	//background-color : #ffffcc;
+        background-color : white;
 	/*background-image : url(images/modif.jpg);*/
 	background-size: cover;
 	margin: 0 2% 0 2%;
@@ -169,4 +170,17 @@ aa,a {
 }
 
 #veille-div {
+    color:red;
+    text-align : center;
+    position: relative ;
+
+}
+
+#cours-bts{
+    position: relative ;
+ //   background-color: red;
+}
+
+#projet{
+    cursor: pointer;
 }
