@@ -1,0 +1,70 @@
+body{
+background: url(1background.jpg) no-repeat center center fixed; 
+background-size: cover;
+}
+
+#banner {
+	font-family: Comic Sans MS, Sans-Serif;
+}
+
+#joueur {
+	margin-left: 37%;
+}
+
+#contener {
+	width: 100%;
+}
+
+#grid {
+	width: 60%;
+	height:70%;
+	float: left;
+	left: 0%;
+	top: 25%;
+	position: absolute;
+	
+}
+
+#rule {
+	width: 70%;
+	height:50%;
+	font-family:  Comic Sans MS, Sans-Serif;
+	font-size: 1em;
+	right: 0%;
+	top: 0%;
+	position: absolute;
+	margin : 6% 15% 0% 0%;
+}
+
+#cadre{
+	width: 32%;
+	height:130%;
+	font-style:italic;
+	color:#600000 ;
+	position:absolute;
+	right: 5%;
+	top: 10%;
+}
+
+.button {
+	position:absolute;
+	left: 49%;
+	top: 62%;
+}
+
+#piedDePage {
+	text-align: center;
+	background: black ;
+	opacity:0.5;
+	color: white;
+	box-shadow: 1% 1% 1% #555;
+	position: fixed;
+	bottom: 0%;
+	height: 5%;
+	right: 0%;
+	left: 0%; 
+	border-top: #000000 2% solid;
+	border-bottom: #000000 2% solid;
+	font-size: 1em;
+	font-weight: bold;
+}

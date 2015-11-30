@@ -1,0 +1,90 @@
+body {
+	background-color : #AAAAAA;
+}
+
+#p1 {
+    position: absolute;
+    top: 310px;
+    right: 15px;
+    left: 15px;
+}
+
+#p2{
+	text-align: center;
+	background: red ;
+	color: black;
+	font-size: 18px;
+	font-weight: bold;
+	position: absolute;
+	top: 450px;
+	right: 355px;
+	left: 355px;  
+	height: 4%;
+	border-top: #000000 2px solid;
+	border-bottom: #000000 2px solid;
+	border-left: #000000 2px solid;
+	border-right: #000000 2px solid;
+}
+
+#hint{
+	opacity: 0.7;
+	background: white ;
+	color: black;
+	font-size: 18px;
+	font-weight: bold;
+	position: absolute;
+	top: 500px;
+	right: 840px;
+	left: 450px;  
+	height: 4%;
+}
+
+#hintText{
+	position: absolute;
+	top: 520px;
+	right: 15px;
+	left: 515px;
+	font-size: 18px;
+}
+
+
+#piedDePage {
+	text-align: center;
+	background: black ;
+	color: white;
+	box-shadow: 1px 1px 12px #555;
+	position: fixed;
+	bottom: 0px;
+	height: 5%;
+	right: 0px;
+	left: 0px; 
+	border-top: #000000 2px solid;
+	border-bottom: #000000 2px solid;
+	font-size: 18px;
+	font-weight: bold;
+}
+	
+	
+#img {
+	position: absolute;
+	left: 43%;
+	width: 200px;
+}
+
+
+#tab{
+	position: absolute;
+	left: 40%;
+	width: 200px;
+	top: 550px;
+}
+
+#gap{
+	position: absolute;
+	left: 40%;
+	top: 800px;
+}
+	
+
+
+
