@@ -1,7 +1,8 @@
 body{
     /*background-color: #ffd456;*/
     /*background-image : url(bkg.jpg);*/
-    background-image : url(images/0.jpg);
+    //background-image : url(images/0.jpg);
+    background-color: #FAFAD2 ;
     /*background-repeat:no-repeat;*/
     background-size: cover; 	
 }   
@@ -22,7 +23,7 @@ a:hover  {
 
 
 #reg{
-    background-color : black;
+    background-color : #380000 ;
     width: 100%;
     /*position: fixed;*/
     height: 50px;
@@ -60,6 +61,27 @@ a:hover  {
     background-image : url(images/avatar.jpg);
 }
 
+#info_pers {
+    /* border: 2px solid blue;*/
+    text-align: center;
+    //background-image : url(images/whitered.jpg);
+    margin: 62px 250px 0px 450px;
+    font-family: "Arial", Times, serif;
+    /* background-color: #FFFFE0;*/
+    /* padding-top: 0px;
+     padding-right: 0px;
+     padding-bottom: 0px;
+     padding-left: 0px;*/	
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+
+}
+
+h4{
+    font-family: "Arial", Times, serif;
+
+}
 #competence1{
     float: left;
     margin: auto 0px auto 30%;
@@ -71,30 +93,33 @@ a:hover  {
 }
 
 #formation1{
-    color:red;
     float: left;
-    /* margin: 10px 0px 0px 250px;*/
-    background-color : white;
+    margin: 10px 0px 0px 250px;
+    //background-color : white;
+    font-family: "Arial", Times, serif;
+
 }
 
 #exp1{
     /*color: red;*/
     float: left;
     margin-left: 18%;
+    font-family: "Arial", Times, serif;
 }
 
 
 #cv-div{
     color : white;
-    /*	background-color : green;*/
-    background-image : url(images/bkg.jpg);
-    width: 96%;
+    font-size: 102%; 
+    //  background-color : #282828 ;
+    background-color:  	#680000  ;
+    //    background-image : url(images/bkg.jpg);
+    width: 100%;
     position: relative;
-    height: 50px;
-    margin: auto 2% auto 2%;
+    height: 70px;
 }
 
-.exp-pro-titre,.formations-titre,.competences-titre,.centre_int-titre {
+.exp-pro-titre,.formations-titre,.competences-titre,.centre_int-titre,projet-nom {
     cursor: pointer;
 }
 
@@ -134,15 +159,25 @@ a:hover  {
     /*background-color : orange;*/
 }
 
+#projet-nom{
+    position : absolute;
+    float: left;
+    width: 200px;
+    height:50px;
+    left: 1100px;
+    /*background-color : orange;*/
+}
+
 #dev-div{
     //background-color : #ffffcc;
-    background-color : white;
+    background-color : #FFEFD5  ;
     /*background-image : url(images/modif.jpg);*/
     background-size: cover;
-    margin: 0 2% 0 2%;
+    margin: 0 0 0 0;
     position: relative;
     height: 550px;
     color :black;
+    width:100%;
 
 }
 
@@ -153,21 +188,7 @@ aa,a {
     text-decoration: none;
 }
 
-#info_pers {
-    /* border: 2px solid blue;*/
-    text-align: center;
-    background-image : url(images/whitered.jpg);
-    margin: 62px 250px 0px 450px;
-    /* background-color: #FFFFE0;*/
-    /* padding-top: 0px;
-     padding-right: 0px;
-     padding-bottom: 0px;
-     padding-left: 0px;*/	
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    border-radius: 20px;
 
-}
 
 #veille-div {
     color:red;
@@ -178,6 +199,8 @@ aa,a {
 
 #cours-bts{
     position: relative ;
+        font-family: "Arial", Times, serif;
+
     // background-color: red;
 }
 

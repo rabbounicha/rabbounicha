@@ -19,7 +19,6 @@
     <p> Java </p>
     <p> Algorithme </p>
     <p> Projets personnels </p>-->
-    Il faut remplacer ici!
     <a href="images/ok.png" download="ok">Pipetron</a> 
     <a href="images/ok.png" download="ok">Paint</a> 
     <a href="images/ok.png" download="ok">Changer les couleurs</a> 

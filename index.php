@@ -11,20 +11,20 @@
         <script type="text/javascript" src="js/changeCours.js"></script>
 
     </head>
-	
+
     <body>	
 
         <div id="reg">
 
-                <div id="status">
-                        <p> Développeuse informatique </p>
-                </div>
+            <div id="status">
+                <img src="images/dev.png" alt="Mes compétences professionnelles" width="350px">
+            </div>
 
-                <div id="aa">
-                        <a class="parcours" href="#exp-pro-nom"> Curriculum Vitae </a>
-                        <a href="###"> BTS </a>
-                        <a href="#veille-div"> Veille technologique </a>
-                </div> 
+            <div id="aa">
+                <a class="parcours" href="#exp-pro-nom"> Curriculum Vitae </a>
+                <a href="###"> BTS </a>
+                <a href="#veille-div"> Veille technologique </a>
+            </div> 
 
         </div>
 
@@ -47,21 +47,25 @@
         </div>
 
         <div id="cv-div">
-                <div id="exp-pro-nom">
-                    <p class="exp-pro-titre"> Expériences professionnelles </p>
-                </div>
+            <div id="exp-pro-nom">
+                <p class="exp-pro-titre"> Expériences professionnelles </p>
+            </div>
 
-                <div id="formations-nom">
-                    <p class="formations-titre"> Formations </p>
-                </div>
+            <div id="formations-nom">
+                <p class="formations-titre"> Formations </p>
+            </div>
 
-                <div id="competences-nom">
-                    <p class="competences-titre"> Compétences </p>
-                </div>
+            <div id="competences-nom">
+                <p class="competences-titre"> Compétences </p>
+            </div>
 
-                <div id="centre_int-nom">
-                    <p class="centre_int-titre"> Centres d'intérêts </p>
-                </div>
+            <div id="centre_int-nom">
+                <p class="centre_int-titre"> Centres d'intérêts </p>
+            </div>
+
+            <div id="projet-nom">
+                <p class="projet-titre"> Projets </p>
+            </div>
         </div>
 
         <div align="center" id="dev-div">
@@ -71,10 +75,10 @@
         <div id="veille-div">
             <?php include_once("images_slider.php"); ?>
         </div>
-        
+
         <div id="cours-bts">
             <?php include_once("cours.php"); ?>
         </div>
-        
+
     </body>
 </html>

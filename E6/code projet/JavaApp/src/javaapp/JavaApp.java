@@ -16,17 +16,17 @@ public class JavaApp {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        new Login(null, true).show();
+       /* new Login(null, true).show();
         
         Insert i;
         i = new Insert();
-        i.setVisible(true);
+        i.setVisible(true);*/
         
 //        
-//          TicTacToe fen;
-//        fen = new TicTacToe();
-//        fen.setVisible(true);
-//        
+         /* TicTacToe fen;
+        fen = new TicTacToe();
+        fen.setVisible(true);*/
+        
       Quiz q;
         q = new Quiz();
         q.setVisible(true);
