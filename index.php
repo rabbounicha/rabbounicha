@@ -20,13 +20,13 @@
                     <img src="images/dev.png" alt="Mes compétences professionnelles" width="350px">
                 </div>
 
-                <div id="aa">
+                <div id="haut-link">
                     <a class="parcours" href="#exp-pro-nom"> Curriculum Vitae </a>
                     <a href="###"> BTS </a>
                     <a href="#veille-div"> Veille technologique </a>
                 </div> 
             </div>
-            
+
             <!--Avatar-->
             <div id="avatar">
             </div>
@@ -38,8 +38,23 @@
                 <p> Née le 14/08/1995 </p>
                 <p> 20 ans </p>
             </div>
+
+            <!--information-technology.jpg-->
+            <div id="IT-pic">
+                 
+            </div>
+
+            <!--Mes passions-->
+            <div id="passions">
+                <p> Actuellement étudiante en deuxième année de BTS SIO (Services informatiques aux Organisations) option SLAM (Solutions Logicielles et Applications Métiers)</p>
+                <p> Logique et rigoureuse,  j'aime le travail en équipe</p>
+                <p> Je suis passionnée de nouvelles technologies et par le secteur de l’informatique </p>
+            </div>
+            <!--Fin mes passions-->
         </div>
         <!--FIN Partie personnelle--> 
+
+
 
         <!--CV-->
         <div id="cvdev">
@@ -76,7 +91,7 @@
             <div id="veilleTitle">
                 <span>Ma veille</span>
             </div>
-                
+
             <div id="veilleContent">
                 <?php include_once("images_slider.php"); ?>
             </div>
@@ -88,13 +103,13 @@
             <div id="projectTitle">
                 <span>Mes projets</span>
             </div>
-                
+
             <div id="projectContent">
                 <?php include_once("cours.php"); ?>
             </div>
         </div>
         <!--FIN Projets-->
-        
+
         <script type="text/javascript" src="js/scroll.js"></script>
     </body>
 </html>
